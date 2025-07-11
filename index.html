@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event List view</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -31,41 +33,215 @@
         <div class="events-list">
             <h5>our events</h5>
             <h1>Lectures, workshops & master-classes</h1>
-            <div class="events-toolbar"></div>
-            <div class="first-event">
-                <h1>05</h1>
-                <h2>Avgust <br>
-                    <font>11:00 - 14:00</font>
-                </h2>
-                <h3>Formation of the organizational structure of the company in the face of uncertainty. <br>
-                    <font>
-                        Online master-class</font>
-                </h3>
-                <button>View more</button>
+            <div class="events-toolbar">
+                <div class="dropdown">
+                    <h6>Event category</h6>
+                    <button class="btn toolbar-dropdown dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        all themes
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
             </div>
-            <div class="second-event">
-                <h1>24</h1>
-                <h2>July <br>
-                    <font>11:00 - 12:30</font>
-                </h2>
-                <h3>Building a customer service department. Best Practices. <br>
-                    <font>
-                        Online lecture</font>
-                </h3>
-                <button>View more</button>
-            </div>
-            <div class="third-event">
-                <h1>16</h1>
-                <h2>July <br>
-                    <font>10:00 - 13:00</font>
-                </h2>
-                <h3>How to apply methods of speculative design in practice. Worldbuilding prototyping.<br>
-                    <font>
-                        Online workshop</font>
-                </h3>
-                <button>View more</button>
+            <div class="body-events">
+                <div class="first-event">
+                    <h1>05</h1>
+                    <h2>Avgust <br>
+                        <font>11:00 - 14:00</font>
+                    </h2>
+                    <h3>Formation of the organizational structure of the company in the face of uncertainty. <br>
+                        <font>
+                            Online master-class</font>
+                    </h3>
+                    <button>View more</button>
+                </div>
+                <div class="second-event">
+                    <h1>24</h1>
+                    <h2>July <br>
+                        <font>11:00 - 12:30</font>
+                    </h2>
+                    <h3>Building a customer service department. Best Practices. <br>
+                        <font>
+                            Online lecture</font>
+                    </h3>
+                    <button>View more</button>
+                </div>
+                <div class="third-event">
+                    <h1>16</h1>
+                    <h2>July <br>
+                        <font>10:00 - 13:00</font>
+                    </h2>
+                    <h3>How to apply methods of speculative design in practice. Worldbuilding prototyping.<br>
+                        <font>
+                            Online workshop</font>
+                    </h3>
+                    <button>View more</button>
+                </div>
+                <div class="fourth-event">
+                    <h1>10</h1>
+                    <h2>July <br>
+                        <font>9:00 - 14:00</font>
+                    </h2>
+                    <h3>Find and evaluate: search and assessment tools for candidates.<br>
+                        <font>
+                            Online workshop</font>
+                    </h3>
+                    <button>View more</button>
+                </div>
+                <div class="fifth-event">
+                    <h1>27</h1>
+                    <h2>July <br>
+                        <font>15:00 - 19:00</font>
+                    </h2>
+                    <h3>Connection to Microsoft Excel and Google Sheets, Data Visualization in Power BI.<br>
+                        <font>
+                            Online master-class</font>
+                    </h3>
+                    <button>View more</button>
+                </div>
+                <div class="sixth-event">
+                    <h1>15</h1>
+                    <h2>June <br>
+                        <font>10:00 - 12:00</font>
+                    </h2>
+                    <h3>Marketing or growth hacking: main differences and what business needs.<br>
+                        <font>
+                            Online lecture</font>
+                    </h3>
+                    <button>View more</button>
+                </div>
+                <div class="seventh-event">
+                    <h1>02</h1>
+                    <h2>June <br>
+                        <font>11:00 - 13:00</font>
+                    </h2>
+                    <h3>How to brief a client and present your design to approve it from the first show.<br>
+                        <font>
+                            Online lecture</font>
+                    </h3>
+                    <button>View more</button>
+                </div>
+                <div class="eighth-event">
+                    <h1>29</h1>
+                    <h2>May <br>
+                        <font>11:00 - 12:00</font>
+                    </h2>
+                    <h3>Who is a project manager and do I want to be PM?<br>
+                        <font>
+                            Online lecture</font>
+                    </h3>
+                    <button>View more</button>
+                </div>
+                <div class="nineth-event">
+                    <h1>18</h1>
+                    <h2>May <br>
+                        <font>10:00 - 12:00</font>
+                    </h2>
+                    <h3>The company's business page as an additional tool to support the announcement of <br>
+                        vacancies.<br>
+                        <font>
+                            Online lecture</font>
+                    </h3>
+                    <button>View more</button>
+                </div>
+
+                <div class="pagination">
+                    <h1>
+                        <font>1</font> 2 3 4 <i class="fa-solid arrow fa-arrow-right-long"></i>
+                    </h1>
+                </div>
+
             </div>
         </div>
+        <div class="fbody">
+            <div class="parent">
+                <div id="c" class="text11">Don’t miss anything</div>
+                <div class="text12">Subscribe to the Createx School <br> announcements</div>
+                <div class="btncont">
+                    <input class="inp" type="text" placeholder="Your working email">
+                    <button id="bt" class="fbody-btn" type="button">Subscribe</button>
+                </div>
+            </div>
+            <div class="tw">
+                <img class="t" src="./Photos/Footerillustration.png" alt="">
+                <img class="t" src="./Photos/Footerillustration.png" alt="">
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="Parents">
+                <div class="ftr1">
+                    <div class="Cr2">
+                        <div id="creyt" class="upa">CREATE</div>
+                        <img class="Xx" src="./Icons/X icon].png" alt="X Icon" />
+                    </div>
+                    <div class="textf">
+                        Createx Online School is a leader in online studying. <br />
+                        We have lots of courses and programs from the main <br />
+                        market experts. We provide relevant approaches <br />
+                        to online learning, internships and employment in the <br />
+                        largest companies in the country.
+                    </div>
+                    <div class="Icons-footer">
+                        <a href="#"><img src="./Icons/Facebook.png" alt="Facebook" /></a>
+                        <a href="#"><img src="./Icons/Twitter.png" alt="Twitter" /></a>
+                        <a href="#"><img src="./Icons/Youtube.png" alt="YouTube" /></a>
+                        <a href="#"><img src="./Icons/Tg.png" alt="Telegram" /></a>
+                        <a href="#"><img src="./Icons/Insta.png" alt="Instagram" /></a>
+                        <a href="#"><img src="./Icons/In.png" alt="LinkedIn" /></a>
+                    </div>
+                </div>
+
+                <div class="ftr2">
+                    <a class="upa" href="#">SITE MAP</a>
+                    <a class="lowa" href="#">Courses</a>
+                    <a class="lowa" href="#">Events</a>
+                    <a class="lowa" href="#">Blog</a>
+                    <a class="lowa" href="#">Contacts</a>
+                </div>
+
+                <div class="ftr2">
+                    <a class="upa" href="#">COURSES</a>
+                    <a class="lowa" href="#">Marketing</a>
+                    <a class="lowa" href="#">Management</a>
+                    <a class="lowa" href="#">HR & Recruiting</a>
+                    <a class="lowa" href="#">Design</a>
+                    <a class="lowa" href="#">Development</a>
+                </div>
+
+                <div class="ftr2">
+                    <a class="upa" href="#">CONTACT US</a>
+                    <div class="contact-wrap">
+                        <img class="phone" src="./Icons/Phone Icon.png" alt="Phone Icon" />
+                        <a class="lowa" href="#">(405) 555-0128</a>
+                    </div>
+                    <div class="contact-wrap">
+                        <img class="email" src="./Icons/Mail.png" alt="Mail Icon" />
+                        <a class="lowa" href="#">hello@createx.com</a>
+                    </div>
+                </div>
+
+                <div class="ftr2">
+                    <div class="upa">SIGN UP TO OUR NEWSLETTER</div>
+                    <input class="emailbox" type="email" placeholder="Email address" />
+                    <img class="linestroke" src="./Icons/Line (Stroke).png" alt="">
+                    <p class="fbotomtext">
+                        *Subscribe to our newsletter to receive communications <br />
+                        and early updates from Createx School.
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© All rights reserved. Made with <img src="./Icons/fsertsa.png" alt="heart" /> by Createx Studio</p>
+                <p class="fbotomtext2">GO TO TOP</p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
