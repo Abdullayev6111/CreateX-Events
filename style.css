@@ -16,7 +16,7 @@
     width: 1230px;
     height: 52px;
     margin-top: 20px;
-    margin-left: 230px;
+    margin-left: 100px;
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -193,7 +193,6 @@
     font-weight: 400;
     font-family: Lato;
     color: #787A80;
-    /* float: left; */
     font-size: 14px;
     line-height: 44px;
     margin-left: 10px;
@@ -926,7 +925,7 @@
 /* Footer start */
 
 .fbody {
-    width: 100%;
+    width: 1400px;
     height: 560px;
     margin-top: 250px;
     background-color: #FEDBD3;
@@ -1006,10 +1005,11 @@
     width: 330px;
     height: 250px;
     background: transparent;
-    margin-right: 750px;
+    margin-right: 700px;
 }
 
 .footer {
+    width: 1400px;
     background-color: #1E212C;
     color: white;
     padding: 80px 100px 40px 100px;
