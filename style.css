@@ -32,6 +32,10 @@
 
 }
 
+.navbar .parts-events {
+    color: #FF3F3A;
+}
+
 .navbar ul li a {
     text-decoration: none;
     font-weight: 700;
@@ -113,12 +117,30 @@
 
 }
 
+.events-list h5 {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #1E212C;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.events-list h1 {
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 46px;
+    color: #1E212C;
+    text-align: center;
+}
+
 .events-toolbar {
     width: 1230px;
     height: 44px;
     margin-top: 50px;
     margin-left: 100px;
-    /* border: 1px solid rgba(215, 218, 221, 1); */
+
 }
 
 .dropdown h6 {
@@ -135,10 +157,65 @@
     height: 44px;
     border: none;
     float: left;
+    margin-left: 15px;
     background-color: white;
     border: 1px solid #D7DADD;
-    outline: 1px solid #D7DADD;
+    border-radius: 5px;
+    margin-right: 20px;
+    outline: none;
 }
+
+.inp-number {
+    width: 72px;
+    height: 44px;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    margin-left: 10px;
+    font-size: 18px;
+    border: 1px solid #D7DADD;
+    float: left;
+}
+
+.inp-text {
+    width: 282px;
+    height: 44px;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    float: left;
+    margin-right: 30px;
+    border: 1px solid #D7DADD;
+}
+
+.dropdown h5 {
+    font-weight: 400;
+    font-family: Lato;
+    color: #787A80;
+    /* float: left; */
+    font-size: 14px;
+    line-height: 44px;
+    margin-left: 10px;
+    margin-right: 20px;
+    float: left;
+}
+
+.toolbar-icons1 {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    float: left;
+}
+
+.toolbar-icons2 {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+
 
 .body-events {
     width: 1230px;
